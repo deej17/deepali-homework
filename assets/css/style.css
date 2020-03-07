@@ -11,7 +11,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color:  #0072bb;
     color: #ffffff;
 }
 
@@ -21,8 +21,17 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    font-style: italic;
+    font-weight: 200;
 }
+
+a {
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gray;
+  }
 
 .header div {
     padding-top: 15px;
